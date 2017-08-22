@@ -1,7 +1,11 @@
 # lover
 :heart:
 
-## 1. 再次熟悉github   
+## 目录
+[1. 再次熟悉github](./#1-再次熟悉github)      
+[2. 学习markdown格式](./#2-学习markdown格式)        
+
+## 1. 再次熟悉github   
 
 > 2017.8.22       
 
