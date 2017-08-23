@@ -5,7 +5,7 @@
 
 [1. 再次熟悉github](#1-再次熟悉github)      
 [2. 学习markdown格式](#2-学习markdown格式)                    
-[3. 理解HTTP协议](#3-理解HTTP协议)                
+[3. 理解HTTP协议](#3-理解http协议)                
 
 ## 1. 再次熟悉github
 
