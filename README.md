@@ -7,7 +7,8 @@
 [2. 学习markdown格式](#2-学习markdown格式)                    
 [3. 理解HTTP协议](#3-理解http协议)            
 [4. HTTP协议的认证机制](#4-http协议的认证机制)          
-[5. RestFul API](#5-restful-api)
+[5. RestFul API](#5-restful-api)                
+[6. 初识Ingress](#6-初识ingress)                
 
 ## 1. 再次熟悉github
 
@@ -86,7 +87,12 @@
     - `Restful API`中URL如何进行设计               
     - 为什么`/api/getBooks`这样的URL PATH不符合`Restful API`设计风格                     
     - 你认为用`Restful API`改写`/api/getBooks`后，有什么好处（可以结合对HTTP协议的理解）         
-   
+    
+## 6. 初识Ingress
 
+> 2017.8.27        
 
+### 周末放假
+
+小田同学最近事情比较多，严肃的王老师准备让小田同学周末休息一下，去把家附近广场的点都炸了！      
 
