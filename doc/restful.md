@@ -49,4 +49,4 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 
 ## 你认为用Restful API改写/api/getBooks后，有什么好处（可以结合对HTTP协议的理解）
 
-简单易懂，别的理解不上去了。
+URL定位资源用HTTP动词（GET POST DELETE）描述操作。
