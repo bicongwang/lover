@@ -7,8 +7,9 @@
 [2. 学习markdown格式](#2-学习markdown格式)                    
 [3. 理解HTTP协议](#3-理解http协议)            
 [4. HTTP协议的认证机制](#4-http协议的认证机制)          
-[5. RestFul API](#5-restful-api)                
-[6. 初识Ingress](#6-初识ingress)                
+[5. Restful API](#5-restful-api)                
+[6. 初识Ingress](#6-初识ingress)       
+[7. Github Restful API](#7-github-restful-api)
 
 ## 1. 再次熟悉github
 
@@ -74,7 +75,7 @@
     - 无状态的HTTP协议下如何通过Cookie/Session来完成用户认证                
     - 请介绍`Basic Authentication`和`OAuth2`用户认证机制，要求说明其在HTTP协议报文中的位置               
 
-## 5. RestFul API
+## 5. Restful API
 
 > 2017.8.26        
 
@@ -94,5 +95,23 @@
 
 ### 周末放假
 
-小田同学最近事情比较多，严肃的王老师准备让小田同学周末休息一下，去把家附近广场的点都炸了！      
+小田同学最近事情比较多，严肃的王老师准备让小田同学周末休息一下，去把家附近广场的点都炸了！   
+
+## 7. Github Restful API
+
+> 2017.8.28       
+
+### 任务步骤
+
+1. 在`doc`目录下，建立`github-api.md`文件         
+2. 打开[Github API](https://api.github.com/)，你会看到一系列关于Github的API。请尝试找到两个API，要求一个需要认证权限，另一个不需要认证权限
+3. 在需要认证权限的API里，报错信息是什么，提示的帮助文档的URL是什么
+4. 进入该帮助文档，在目录处找到`Authentication`一节，请使用自己的账号信息复现`Basic Authentication`和`OAuth2`认证
+5. 使用已认证的方式去访问需要认证的URL
+6. 将2~6步骤记录到`github-api.md`文件中
+
+### 任务帮助
+
+1. 在`chrome`里安装[json-formatter插件](https://chrome.google.com/webstore/detail/bcjindcccaagfpapjjmafapmmgkkhgoa)，可以方便查看json格式的数据         
+2. 使用[Postman](https://www.getpostman.com)方便对API进行调试
 
