@@ -9,7 +9,8 @@
 [4. HTTP协议的认证机制](#4-http协议的认证机制)          
 [5. Restful API](#5-restful-api)                
 [6. 初识Ingress](#6-初识ingress)       
-[7. Github Restful API](#7-github-restful-api)
+[7. Github Restful API](#7-github-restful-api)          
+[8. Npm与React环境搭建](#8-npm与react环境搭建)      
 
 ## 1. 再次熟悉github
 
@@ -114,4 +115,16 @@
 
 1. 在`chrome`里安装[json-formatter插件](https://chrome.google.com/webstore/detail/bcjindcccaagfpapjjmafapmmgkkhgoa)，可以方便查看json格式的数据         
 2. 使用[Postman](https://www.getpostman.com)方便对API进行调试
+
+## 8. Npm与React环境搭建
+
+> 2017.8.29        
+
+### 任务步骤
+
+1. 在`doc`下建立新文件夹`React`，用以记录所有`React`的学习笔记，在该文件夹下的`*.md`文件请以自己喜欢的方式命名。         
+2. 在电脑上安装`npm`，介绍`npm`的基本作用和基本指令（至少包括`install` `uninstall`，需要学会使用`help`指令查询帮助）         
+3. 使用`npm`安装在**全局位置**安装`create-react-app`后创建`React`项目，介绍`npm`包全局位置与本地位置的区别            
+4. 运行你的项目，将运行后的网站截图展示出来（学习如何在`markdown`文件中使用相对路径引用图片，此处需要了解相对路径和绝对路径的不同）       
+
 
