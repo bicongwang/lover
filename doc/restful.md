@@ -3,6 +3,7 @@
  AngularJS API   
  jQuery UI API  
 ```
+以上答案不对，正确答案还是没找到。
 
 ## Restful API中HTTP协议的四大方法get post put delete各表示什么
 
@@ -49,4 +50,16 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
 
 ## 你认为用Restful API改写/api/getBooks后，有什么好处（可以结合对HTTP协议的理解）
 
-URL定位资源用HTTP动词（GET POST DELETE）描述操作。
+- URL定位资源用HTTP动词（GET POST DELETE）描述操作
+- 使URL回归对资源的抽象
+
+```
+王老师有话说：
+
+1. URL本身的意义，你是否发现URL跟系统中文件路径有点类似，系统中文件路径可能指某个目录或者某个文件，而URL的名字即是统一资源定位符，实际上他们都应该是对文件系统的抽象。Restful作为一种简约的设计风格，让URL只能是名词，其实就是让URL回归了自己的本意，在Restful API中URL就是对资源的抽象。
+2. 虽然你认为/api/getBooks这样的设计，把get和Books连接起来， 所以更加简洁。但是实际上，你有没有发现，这种设计完整来看是get /api/getBooks，而Restful API是get /api/books，此时你有没有发现，这样的设计并不简洁，反而多余。
+3. 之前让你大概了解了HTTP协议，之所以最开始只让你学习get和post方法，是因为如果自己任性设计API，根本用不上那么多method，因为url本身是无限空间的，甚至我可以只用get方法，参照我在该题中写的设计，用/api/getBook /api/addBook /api/deleteBook /api/updateBook，是不是只用了get方法就完成了
+restful api需要用四个方法完成的任务，但是这里要注意的是，restful api设计中只有一个url : /api/book。在这个例子中你就能发现，restful api为什么简约，实际上他是让method和url各司其职。url就是一个物品，而method就是能对这个物品进行的操作，而不像题中的设计，只有行为的资源，而无单纯的资源的概念。
+4. 虽然我以上都是吹捧Restful API，但是由于Restful API对API抽象程度要求高，要求我们必须对每个API都抽象出资源URL和行为Method这两个概念，所以在复杂系统的设计中，容易增加设计成本，甚至这些略显苛刻的条件并不能满足实际需求，这样我们就可能需要不严格按照Restful API的设计。
+5. 第4点我只是依照惯例，不能强吹一个技术去贬低其他技术。反正现在Restful API是最流行的设计风格，别的风格再吹也没卵用 🐶 设计不好只能说太菜 🐶
+```
