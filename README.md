@@ -114,7 +114,8 @@
 ### 任务帮助
 
 1. 在`chrome`里安装[json-formatter插件](https://chrome.google.com/webstore/detail/bcjindcccaagfpapjjmafapmmgkkhgoa)，可以方便查看json格式的数据         
-2. 使用[Postman](https://www.getpostman.com)方便对API进行调试
+2. 使用[Postman](https://www.getpostman.com)方便对API进行调试        
+3. `curl`命令是`linux`下一款对`http`等协议高度封装的工具，实际上也只是把命令转换为协议本身，通过查阅`curl`文档即可知道各个子命令对`http`协议报文做了哪些操作
 
 ## 8. Npm与React环境搭建
 
