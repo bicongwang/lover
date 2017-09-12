@@ -21,4 +21,13 @@ npm uninstall pkg    # 卸载模块
 - 使用`npm search pkg`可进行搜索。
 
 
-## 使用npm安装在全局位置安装create-react-app后创建React项目，介绍npm包全局位置与本地位置的区别      
+## 使用npm安装在全局位置安装create-react-app后创建React项目
+
+```
+npm install -g create-react-app
+
+create-react-app my-app
+cd my-app/
+npm start
+```
+ ![image](QQ20170913-0副本.png)
